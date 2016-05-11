@@ -1,5 +1,11 @@
 module S8_1 where
 
+-- Tipo das funções utilizadas em divideAndConquer
+--ind :: p -> Bool
+--solve :: p -> s
+--divide :: p -: [s]
+--combine :: p -> [s] -> s
+
 divideAndConquer :: ( p -> Bool) -> (p -> s) -> (p -> [p]) -> (p -> [s] -> s)
       -> p -> s
 divideAndConquer ind solve divide combine initPb 
